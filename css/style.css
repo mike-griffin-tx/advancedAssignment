@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    border: 1px solid red !important;
+    outline: dotted red 1px;
 }
 
 * {
@@ -13,13 +13,13 @@
 
 .grid {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 970px;
     width: 100%;
 }
 
 .row {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     display: flex;
 }
 
@@ -70,3 +70,74 @@
 .col-12 {
     width: 100%;
 }
+
+.header-left {
+  display: inline-block;
+  max-height: 72px;
+}
+
+.header-right {
+  max-height: 72px;
+  margin-top: 45px;
+}
+
+.header-right h3{
+  display: inline-block;
+}
+
+nav.top-menu {
+  padding: 1px;
+  padding-bottom: 5px;
+  background-color: #DBE1E7;
+  margin-bottom: 20px;
+  min-height: 35px;
+}
+
+nav.top-menu ul {
+  list-style-type: none;
+  margin-top: 5px;
+  margin-left: 100px;
+}
+
+nav.top-menu ul li + li{
+  border-left: 1px solid gray;
+}
+
+nav.top-menu ul li {
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 12px;
+  display: inline-block;
+}
+
+nav.top-menu ul li:last-child {
+  border-right: 1px;
+  color: white;
+  padding-left: 80px;
+}
+
+nav.top-menu a {
+  text-decoration: none;
+  color: gray;
+}
+
+.blackback {
+  background-color: grey;
+/*  min-height: 700px;*/
+}
+
+/*.col-12  {
+  min-height: 200px;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
