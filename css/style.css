@@ -96,7 +96,7 @@ nav.top-menu {
 nav.top-menu ul {
   list-style-type: none;
   margin-top: 5px;
-  margin-left: 100px;
+  margin-left: 50px;
 }
 
 nav.top-menu ul li + li{
@@ -104,8 +104,8 @@ nav.top-menu ul li + li{
 }
 
 nav.top-menu ul li {
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
   font-size: 12px;
   display: inline-block;
 }
@@ -118,21 +118,66 @@ nav.top-menu ul li:last-child {
 
 nav.top-menu a {
   text-decoration: none;
-  color: gray;
+  color: #666666;
 }
 
 .blackback {
-  background-color: grey;
-/*  min-height: 700px;*/
+  background-color: black;
 }
 
-/*.col-12  {
-  min-height: 200px;
-}*/
+.bigbody {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
+.main-pic {
+  border: 5px solid white;
+  margin: 10px;
+}
 
+.small-logo {
+  height: 20%;
+  width: 20%;
+}
 
+.middle-left p {
+  color: #929964;
+  font-size: 12px;
+  display: inline-block;
+  margin-left: 10px;
+  padding-top: 3px;
+  vertical-align: top; 
+}
 
+.middle-right {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.middle-right h5 {
+  background-color: #FFC635;
+  padding: 10px;
+}
+
+.middle-right h4 {
+  background-color: #373737;
+  color: white;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font: white;
+}
+
+.middle-right li {
+  background-color: #373737;
+  color: white;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font: white;
+  font-size: 14px;
+  list-style-type: none;
+}
 
 
 
