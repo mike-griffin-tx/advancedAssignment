@@ -133,6 +133,8 @@ nav.top-menu a {
 .main-pic {
   border: 5px solid white;
   margin: 10px;
+  height: 95%;
+  width: 95%;
 }
 
 .small-logo {
@@ -179,6 +181,11 @@ nav.top-menu a {
   list-style-type: none;
 }
 
+.bottom-row h5 {
+  background-color: #FFC635;
+  padding: 10px;
+  margin-right: 15px;
+}
 
 
 
